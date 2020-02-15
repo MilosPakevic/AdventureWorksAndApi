@@ -19,7 +19,7 @@ namespace XimbleAdventureWorksApi.Tests.Controllers
 
             // Assert
             Assert.IsNotNull(result);
-            Assert.AreEqual("Home Page", result.ViewBag.Title);
+            Assert.AreEqual("Ximble Adventure Works Api", result.ViewBag.Title);
         }
     }
 }

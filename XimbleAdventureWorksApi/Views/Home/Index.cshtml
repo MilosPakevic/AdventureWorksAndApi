@@ -1,24 +1,49 @@
 ﻿<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    <div class="container">
+        <h1 class="display-4">The Best REST Api</h1>
+    </div>
 </div>
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>ASP.NET Web API is a framework that makes it easy to build HTTP services that reach
-        a broad range of clients, including browsers and mobile devices. ASP.NET Web API
-        is an ideal platform for building RESTful applications on the .NET Framework.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301870">Learn more &raquo;</a></p>
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <h5>Search DB table Production.Product<br />by following arguments:</h5>
+            <form method="get" id="search-product">
+                <div class="form-group">
+                    <label for="name">Product name:</label>
+                    <input id="name" name="name" type="text" class="form-control" placeholder="Enter product name" />
+                    <label for="date">Sell start date:</label>
+                    <input id="date" name="date" type="date" class="form-control" />
+                    <label for="keyword">Keyword:</label>
+                    <input id="keyword" name="keyword" type="text" class="form-control" placeholder="Enter keyword" />
+                    <label for="pageIndex" class="col-form-label">Page index:</label>
+                    <input id="pageIndex" name="pageIndex" type="number" class="form-control" />
+                    <label for="pageSize" class="col-form-label">Page size:</label>
+                    <input id="pageSize" name="pageSize" type="number" class="form-control" />
+                </div>
+                <button class="btn btn-primary" type="submit">Search</button>
+            </form>
+        </div>
+        <div class="col-6">
+            <h5>Get purchase order details for period:</h5>
+            <form method="get" id="purchase-details">
+                <div class="form-group">
+                    <label for="start">Start time:</label>
+                    <input id="start" name="start" type="date" class="form-control" />
+                    <label for="end">End time:</label>
+                    <input id="end" name="end" type="date" class="form-control" />
+                    <label for="pageIndex" class="col-form-label">Page index:</label>
+                    <input id="pageIndex" name="pageIndex" type="number" class="form-control" />
+                    <label for="pageSize" class="col-form-label">Page size:</label>
+                    <input id="pageSize" name="pageSize" type="number" class="form-control" />
+                </div>
+                <button class="btn btn-primary" type="submit">Search</button>
+            </form>
+        </div>
+        <div class="col-12">
+            <div id="result-container" class="col-md-12 result-container p-0 mt-4" style="height:200px; border:1px solid lightgray;">
+                <p class="p-2">...waiting result</p>
+            </div>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301871">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301872">Learn more &raquo;</a></p>
-    </div>
+    <hr />
 </div>

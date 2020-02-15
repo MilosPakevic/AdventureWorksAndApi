@@ -10,7 +10,7 @@ namespace XimbleAdventureWorksApi.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "Home Page";
+            ViewBag.Title = "Ximble Adventure Works Api";
 
             return View();
         }

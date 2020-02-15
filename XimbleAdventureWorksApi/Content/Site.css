@@ -15,3 +15,16 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.result-container {
+    overflow: auto;
+    font-size: 14px;
+}
+
+table th {
+    white-space: nowrap;
+}
+
+.jumbotron {
+    padding: 1.5rem 1rem;
+}
