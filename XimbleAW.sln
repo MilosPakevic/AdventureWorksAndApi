@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XimbleAdventureWorksApi", "XimbleAdventureWorksApi\XimbleAdventureWorksApi.csproj", "{48B97191-5485-4547-8477-18F8C6595ED6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XimbleAdventureWorksApi.Tests", "XimbleAdventureWorksApi.Tests\XimbleAdventureWorksApi.Tests.csproj", "{1D8273C7-7ED4-4BFC-9C5D-ABEAF4A8918B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48B97191-5485-4547-8477-18F8C6595ED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48B97191-5485-4547-8477-18F8C6595ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48B97191-5485-4547-8477-18F8C6595ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48B97191-5485-4547-8477-18F8C6595ED6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D8273C7-7ED4-4BFC-9C5D-ABEAF4A8918B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D8273C7-7ED4-4BFC-9C5D-ABEAF4A8918B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D8273C7-7ED4-4BFC-9C5D-ABEAF4A8918B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D8273C7-7ED4-4BFC-9C5D-ABEAF4A8918B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB8A69E8-9E77-432D-9FF3-04885F88132A}
+	EndGlobalSection
+EndGlobal
